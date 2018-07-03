@@ -1,0 +1,231 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{calc}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{fancyheadings}
+\usepackage[round]{natbib}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{verbatim}
+
+\setlength{\voffset}{-0.25in}
+\setlength{\topmargin}{0pt}
+\setlength{\hoffset}{-0.1in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0in}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+\setlength{\footskip}{.3in}
+\setlength{\textwidth}{7in}
+\setlength{\textheight}{9.5in}
+\setlength{\parskip}{0pc}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\newcommand{\bi}{
+  \begin{itemize}
+  \setlength{\itemsep}{0pt}
+  \setlength{\parskip}{0pt}
+}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{
+  \begin{enumerate}
+  \setlength{\itemsep}{0pt}
+  \setlength{\parskip}{0pt}
+}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\bd}{\begin{description}}
+\newcommand{\ed}{\end{description}}
+\newcommand{\prbf}[1]{\textbf{#1}}
+\newcommand{\prit}[1]{\textit{#1}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bdm}{\begin{displaymath}}
+\newcommand{\edm}{\end{displaymath}}
+\newcommand{\script}[1]{\begin{cal}#1\end{cal}}
+\newcommand{\citee}[1]{\citet*{#1}}
+\newcommand{\h}[1]{\hat{#1}}
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\toprule}{\par\vspace*{2pt}\noindent{\hrule\hfill}\par\vspace*{1pt}}
+
+\newcommand{\app}
+{
+\appendix
+}
+
+\newcommand{\appsection}[1]
+{
+\let\oldthesection\thesection
+\renewcommand{\thesection}{Appendix \oldthesection}
+\section{#1}\let\thesection\oldthesection
+\renewcommand{\theequation}{\thesection\arabic{equation}}
+\setcounter{equation}{0}
+}
+
+\pagestyle{plain}
+
+\begin{document}
+\thispagestyle{empty}
+\setcounter{page}{1}
+
+\title{\vspace*{-4pc} \ \\
+Learning Experiences in the First Two Years:\\Comparing a Two Year vs. a Four Year College Institution}
+\author{James Murray, Ph.D.\\Department of Economics\\University of Wisconsin - La Crosse}
+
+\maketitle
+\abstract{
+  \textbf{Purpose:} Our goal is to identify differences in students' learning experiences in a two-year versus a four-year institution that may influence subsequent academic or career success.  We recognize that many students begin their college careers at two-year institutions with the intention of transferring to a four-year institution and earning a four-year baccalaureate degree, so we wish to identify whether students that transfer from two year programs are as well prepared as others. We will measure differences in experience in three dimensions: (1) student mindset, (2) writing knowledge and confidence, and (3) information-seeking behavior.  For each goal we will produce a paper to submit for peer-reviewed publication.
+
+  \textbf{Methodology:} We will construct a single electronic survey to be administered to students at the University of Wisconsin - La Crosse (UWL) and Western Technical College (WTC).  The survey will be administered to students at the freshman and sophomore level at UWL and students in associate degree programs at WTC.  The survey will include questions that measure mindset, writing ability and confidence, information-seeking behavior, prior academic experience and performance, demographic information, and intentions for seeking four-year college degrees or beyond.
+
+  \textbf{Anticipated results:} We will quantify the experiences of WTC and UWL students as they relate to mindset (attitudes on fixed ability vs growth potential), writing confidence and knowledge, and behaviors and confidence using library resources for research projects in their coursework. For all these outcome variables, we will also control for demographic and past academic characteristics.
+  
+  \textbf{Research Implications:} We will identify differences in students' learning experiences that can affect their success in their final two years or beyond. This will help post-secondary educators and policy makers make curriculum decisions that maximize students' chances of academic success.
+
+  \textbf{Originality:} There have been several papers that compare two-year and four-year students academic success, but not at the depth that we propose here in terms of students thought processes and behaviors that can inform specific improvements on advising and curriculum.
+}
+
+\section{Statement of Problem}
+
+Many students begin their college careers at two-year institutions with the intention of transferring to a four-year institution and earning a four-year baccalaureate degree.  Do junior and senior college students with experience for their first two years at a four-year institution have different skills and abilities that put them at an advantage or disadvantage compared to third-year transfer students from two year technical or community colleges?
+
+The purpose of this research program is to measure and compare the differences in students' educational experiences in the first two years of college between a two-year institution and a four-year institution.  We will focus on the following three areas that are important for academic and career success: (1) student mindset, (2) writing ability and confidence, and (3) information-seeking behavior.  \textbf{We will produce a separate manuscript for each of these areas to submit for peer-reviewed publication.}  In the following subsections, I discuss each of these goals in more detail.
+
+\subsection{Student Mindset}
+
+Are there differences in students' attitudes regarding their abilities to learn?  A person that has a \textbf{fixed mindset} for a particular skill views his or her abilities in that skill as relatively fixed.  A student with a fixed mindset will likely not put in much effort into learning difficult material and so she or he may not achieve her or his full potential.  A person with a \textbf{growth mindset} recognizes that her or his current abilities and knowledge on a topic can expand with effort.  Whether that person is a novice or an expert, he or she will likely put forward more effort and be more likely to achieve her or his potential.
+
+In her book, \citee{dweck2012} discusses decades of research that establishes that intelligence is not fixed and people with a growth mindset are more likely to achieve their potential.  Furthermore, mindset is also not fixed.  People have the ability to change their attitudes and perceptions about their own learning and potential, and teachers can influence mindset as well.  \citee{dweck2010} discusses how teachers can create a classroom culture that supports a growth mindset.
+
+\textbf{We will measure and compare the mindset of UWL and WTC students}, taking into account other factors that can also explain mindset, including high school academic experience and demographic characteristics.  We will also estimate \textbf{interaction effects} of the institution and demographics on mindset which allows us to determine whether one institution performs better than the other at influencing the mindsets of at-risk students (populations that are less likely to graduate) such as first generation or minority students.
+
+\subsection{Writing Ability and Confidence}
+
+\textbf{We will measure and compare UWL and WTC students' on writing ability and confidence.}  Both institutions have required introductory courses on writing and have writing tutoring resources available.  We will determine whether students at these two institutions have different knowledge, experience, and confidence with writing concepts such as audience, purpose, style, voice, genre, and grammar, while controlling for other factors likely to influence writing ability including high school academic experience and demographic characteristics. 
+
+\subsection{Information-Seeking Behavior}
+
+This final question is an extension of \citee{km2016}, a previous paper by two of us on the current project.  Information seeking behavior refers to students' actions, knowledge, and confidence using library resources to find sources and data to use for research projects.  In the previous paper, we identified the search tools students use to find information, what types of sources students use (eg: peer reviewed, popular press, blogs or Wikipedia), and what students value in sources (eg: peer-reviewed, journal reputation, full text available).  In that paper, we found evidence for high usage of both academic resources and lesser quality resources such as Wikipedia and blogs.  We also collected information on students' high school academic experience, demographic information, and interactions students had with their instructors and library staff members.
+
+In the current project, we will measure several of the same variables as our previous survey.  We will use these to \textbf{measure and compare UWL and WTC students' information seeking behavior}, while also controlling for high school academic and demographic characteristics that may also be important factors.
+
+\section{Significance}
+
+A September, 2016, \textit{Wall Street Journal} article (\citee{wsj}) recently reached the conclusion that it could be cost saving for students to complete their first two years of college at a community college then transfer to a four year institution to complete the baccalaureate degree.  The drawbacks considered in the article were limited to transfer and degree requirement issues.  While these hurdles may be significant, little attention has been paid in the media or in the academic literature as to whether transfer students from two year institutions have the same attitudes, skills, and knowledge that can help them succeed as their peers who started at a four year institutions.   \citee{jenkins} find that six-year baccalaureate graduation rates for transfer students from two-year institutions is 42\% compared to 58\% for students who began at a four-year institution.
+
+\textbf{This paper will identify the relative strengths and weaknesses of two-year versus four-year students that can inform educators and policy makers at both types of institutions on specific curricular improvements to improve students' chances for academic success.}
+  
+\section{Research Methods}
+
+\subsection{Survey}
+We will use a single survey to collect data for all three papers above which will include five sections measure students' mindset, writing skills and confidence, information-seeking behaviors, previous academic background, and demographic information.  In what follows, I describe each of these sections of the survey in more detail.
+\bi
+\item \textbf{Mindset questions:} We will adapt survey questions like those used on \texttt{mindsetonline.com} (a companion website to \citee{dweck2012}) and in \citee{schmidt}.  Our survey questions will measure the following characteristics:
+  \bi
+  \item Attitudes on a Likert scale on how fixed or flexible one perceives his or her intelligence
+  \item Confidence on the payoff of working hard on a difficult subject
+  \item Perception that a person feels like they will belong and be respected at a four-year institution
+  \ei
+
+\item \textbf{Writing skills and confidence questions:} It is admittedly difficult and imperfect to measure students' writing skills in a survey with self-reported answers.  One way we will attempt to measure students' knowledge and confidence with writing skills is to ask them to describe a recent 3+ page paper they wrote for a class, specifically providing one-sentence answers to survey prompts like the following:
+  \bi
+  \item Describe the purpose of the paper.
+  \item Describe the audience of the paper.
+  \item Describe the genre of the paper.
+  \ei
+
+  For each of these questions, we will also ask on a Likert scale how confident they are in their descriptions.  From these open-ended answers we can categorize students responses.  The full set of categories can be determined after we read the responses, but we will look for descriptions that reveal students could communicate deeper goals than writing a paper for an instructor as specified in the directions.  Regarding audience, we will determine whether students identified an audience outside of the instructor and whether the description includes enough detail to know the skill level, values, or opinions of the audience.  Regarding purpose, we will determine if students seem to reiterate a general assignment description or if their purpose specific is to their topic.  Furthermore, do the students describe their purpose with a specific verbs such as ``argue'' or  ``inform'' as opposed to ``write about...''  Regarding genre, we can identify if students identify a specific or general genre and whether they confident in what this means.
+  \ \\
+  
+  To measure writing style and grammar skills, we will construct several multiple choice questions that give alternative wordings for a single statement that could be made in a paper, and have students choose what they perceive is the best sentence.  We can vary sentences in passive versus active voice.  Also, we can vary sentences by violating or following grammar rules, such as multiple verb tenses.  Finally, we will also measure students' confidence in their answers to these questions.
+  \ \\
+  
+  Finally, we will ask students about their experiences with writing assignments in their classes, including how often they get writing assignments, how often and to what degree do they revise before submitting a final version, how much they using tutoring services for writing, and how often the see instructors outside of class for help on writing.
+
+\item \textbf{Information-seeking behavior questions:} This section of the survey will reuse questions from a survey we used in our previous paper, \citee{km2016}.  These include questions that measure:
+  \bi
+  \item What electronic search tools students use to find sources and data for their research projects
+  \item What kind of sources do students use in their research projects, including whether these are reputable popular press articles; unknown blogs, websites or Wikipedia; peer-reviewed journal articles; books, etc.
+  \item What students value in sources, such as reputation of a journal, peer-review status, full text available online
+  \ei
+
+\item \textbf{Academic questions:} This section of the survey will ask questions to report their high school and recent academic experience, including their high school GPA, current college GPA, ACT/SAT score if taken, number of past semesters of post-secondary education, number of credits currently taking, etc.
+
+\item \textbf{Demographic characteristics:} This section of the survey will ask for demographic variables that are possibly also related to our outcome variables, including parents' education, race, ethnicity, gender, nationality, immigration status, and veteran status.
+  
+  \ei
+
+We will develop the survey and submit it for Institutional Review Board (IRB) approval at the University of Wisconsin - La Crosse in late Fall 2016 or early Spring 2017 with a plan to administer the survey electronically to UWL and WTC students in Spring 2017.  The survey will target the WTC population enrolled in associate degree programs and the UWL freshman and sophomore population.  To encourage complete participation in the survey, we plan to offer eight \$50 Visa gift cards which will be given to four randomly chosen participants from each school.  
+
+\subsection{Statistical Analysis}
+
+For each outcome variable we will estimate a \textbf{linear regression model} (or an \textbf{appropriate general linear regression model} for limited dependent variables) that includes a binary explanatory variable identifying the student as enrolled at UWL or WTC, demographic and academic control variables, and interaction effects between the school and demographic variables.  The outcome/dependent variables include those measuring mindset, writing skills, and information-seeking behavior.  Using this framework, we can answer the following questions for each dependent variable:
+\be
+\item Is the mean outcome for the dependent variable different for UWL versus WTC students?  Is the difference statistically significant?  That is, is the difference large enough in the sample to lead to the conclusion there is a difference in the populations as a whole?
+\item Is the magnitude of the difference in the mean for the outcome variable meaningful from the point of view of educators?
+\item Do students' academic and demographic backgrounds influence the outcome variable?
+\item Are there interaction effects between the UWL-vs-WTC variable and demographic variables?  For example, does one school versus another have a different impact on the outcome variable depending on whether a student is a minority or first generation student?
+\ee
+
+\section{Note on Collaborators}
+
+This research project is a collaboration with Sloan Komissarov (Lecturer, Western Technical College) and Brenda Murray (Associate Lecturer, University of Wisconsin - La Crosse), neither of whom are eligible for a faculty research grant.  We each bring unique expertise that makes the project possible, we will each carry an equal workload, and our names will appear in alphabetical order in all manuscript submissions.  In this section, I describe each of our responsibilities in more detail.
+\ \\
+
+\noindent \textbf{Sloan Komissarov's Responsibilities:}
+\bi
+\item Create first draft of survey questions measuring writing skills and abilities
+\item Review and provide feedback on all survey questions, be part of a joint decision for the final version of the survey.
+\item Review and provide feedback on the IRB application.
+\item Collect background information and literature related to mindset and write first draft of the introduction and literature review for the writing skills paper.
+\item Write the first draft of the conclusions / discussions section of the writing skills paper.
+\item Review and provide feedback on the full drafts of all papers.  Work with all collaborators on finalizing each paper for submission.
+\ei
+  
+\noindent \textbf{Brenda Murray's Responsibilities:}
+\bi
+\item Create first draft of survey questions measuring student mindset.
+\item Review and provide feedback on all survey questions, be part of a joint decision for the final version of the survey.
+\item Write the first and final drafts of the IRB application.
+\item Collect background information and literature related to mindset and write first draft of the introduction and literature review for the mindset paper.
+\item Write the first draft of the conclusions / discussions section of the mindset paper.
+\item Review and provide feedback on the full drafts of all papers.  Work with all collaborators on finalizing each paper for submission.
+  \ei
+
+\noindent \textbf{James Murray's (Faculty Research Grant Applicant) Responsibilities:}
+\bi
+\item Create first draft of survey questions measuring information seeking behavior, academic backgrounds, and demographic characteristics.
+\item Review and provide feedback on all survey questions, be part of a joint decision for the final version of the survey.
+\item Review and provide feedback of the IRB application.
+\item Collect background information and literature related to information-seeking behavior and write first draft of the introduction and literature review for the information-seeking behavior paper.
+\item Conduct all the statistical analyses for all papers.
+\item Write first draft of methodology and results sections for all papers.
+\item Write the first draft of the conclusions / discussions section of the information-seeking behavior paper.
+\item Review and provide feedback on the full drafts of all papers.  Work with all collaborators on finalizing each paper for submission.
+\ei
+
+\section{Past Faculty Research Grants}
+\be
+\item Grant period: 2012-2013.  Title: ``Labor Markets and Adaptive Expectations: Estimating a New Keynesian Model with Learning and Unemployment''
+  
+  This project evolved with a change in title and a specific focus on adaptive learning regarding economic policy.  The research stayed true to original intent to estimate the impact that adaptive expectations on unemployment, focusing specifically on economic agents' perceptions of economic policy.  I presented the work at the 2014 Midwest Economics Association annual conference and submitted a completed manuscript to the \textit{Journal of Macroeconomics}.  I received a request to revise and resubmit in December 2014, but changes and corrections suggested by the referees revealed results that significantly changed the paper.  I am currently preparing a significant revision to the paper.
+
+\item Grant period: 2010-2011.  Title: ``Academic Benefits of Living on Campus: A look at Peer Influences and Utilization of University Provided Resources''
+
+  This research project resulted two peer-reviewed journal publications.  One in \textit{Economics Bulletin} in 2010 and the other in \textit{American Journal of Business Education} also in 2010.  I also presented the work at the 2010 Midwest Economics Association annual conference.
+  \ee
+  
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{twofour.bib}
+
+\end{document}
+
+
+
